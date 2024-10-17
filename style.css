@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div.main_container{
+    
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+   
+}
+div.login_container{
+    display: flex; 
+    flex-direction: column;
+    width: 40%;
+    height: 60%;
+    margin-left: 16%;
+}
+div.title_page h1{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Poppins";
+   color: #5852cf;
+}
+div.title_page p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins";
+   
+}
+div.user_input{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+        
+    height: 35%;
+    margin-top: 6%;
+}
+
+
+
+#user {
+    padding: 1%;
+    width: 50%;
+}
+#pass {
+    padding: 1%;
+    width: 50%;
+}
+#submit {
+    padding: 1%;
+    width: 24%;
+    margin-top: 5%;
+ 
+    background-image: linear-gradient(to bottom right, #6C63FF,#837df3, #9e9cd6  );
+    color: white;
+    border: 1px solid rgb(56, 51, 78);
+    border-radius: 10px;
+   transition: 0.2s;
+}
+#submit:hover {
+cursor: pointer;
+width: 25%;
+margin-left: 1%;
+box-shadow: 2px 2px 10px#6C63FF;
+border: 1px solid rgb(229, 229, 230);
+}
+div.image{
+    
+position: relative;
+right: 8%;
+bottom: 2%;
+}
+
+div.link{
+    width: 60vw;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20%;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    border-radius: 20px;
+   
+}
+div.link i{
+    color: #5852cf;
+}
+#submit1{
+    padding: 1%;
+    width: 20%;
+    margin: 10%;
+    
+    background-image: linear-gradient(to bottom right, #6C63FF,#837df3, #9e9cd6  );
+    color: white;
+    border: 1px solid rgb(56, 51, 78);
+    border-radius: 10px;
+   transition: 0.2s;
+   
+}
+#submit1:hover {
+    cursor: pointer;
+    width: 25%;
+    box-shadow: 2px 2px 10px#6C63FF;
+    border: 1px solid rgb(229, 229, 230);
+    }
